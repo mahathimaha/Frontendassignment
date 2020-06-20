@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <style>
+        #bg
+        {
+            background-image:url("bgim.png");
+            background-size: cover;
+        }
+        .same
+        {
+            border:2px solid grey;
+            padding:5px;
+            margin:10px;
+        }
+       .ele
+        {
+            border:2px solid grey;
+            padding:10px;
+            margin:10px;
+            width:max-content;
+            display:inline-block;
+        }
+        #hdng
+        {
+            margin-left:20%;
+            font-size: 30px;
+        }
+        #icr
+        {
+            float:right;
+        }
+        .sed
+        {
+            border:2px solid grey;
+            padding:5px;
+            margin:5px;
+        }
+        .tdo
+        {
+            border:2px solid grey;
+            padding:5px;
+            margin:5px;
+            width:max-content;
+            display:inline-block;
+            border-radius:5px;
+        }
+        .todoo
+        {
+            padding:5px;
+            margin:5px;
+            background-color: grey;
+        }
+        .todoone
+        {
+            cursor:pointer;
+        }
+        i{
+            cursor:pointer;
+        }
+        .tdpad
+        {
+            padding:5px;
+            margin:5px;
+        }
+        .tdbutt
+        {
+            padding:4px;
+            background-color: green;
+            color:white;
+            float:center;
+            cursor:pointer;
+        }
+        #tdcross
+        {
+            padding:5px;
+            margin:5px;
+        }
+    </style>
+</head>
+<body id="bg">
+    <nav class="nbar">
+        <ul class="same">
+            <li class="ele"> 
+                <i class="fa fa-home"></i>
+            </li> 
+            <li class="ele">
+                <i class="fa fa-bars">Boards</i>
+            </li>
+            <input type="text" name="text" class="ele"/>
+            <b id="hdng">Tralala</b>
+            <li class="ele" id="icr">
+                <i class="fa fa-plus-circle"></i>
+            </li>
+            <li class="ele" id="icr">
+                <i class="fa fa-pencil-square-o"></i>
+            </li>
+        </ul>
+    </nav>
+    <div class="sed">
+        <b>Frontend Training</b>
+        <i  id="icr"class="fa fa-ellipsis-v">Show menu</i>
+    </div>
+    <div class="tdo">
+            <b>To Do</b>
+            <i id="icr" class="fa fa-ellipsis-h"></i>
+        <div class="todoo">
+            <div class="tdpad">
+                <input type="text" name="html" placeholder="Learn HTML" class="todoone" />
+            </div>
+            <div class="tdpad">
+                <input type="text" name="css" placeholder="Learn CSS" class="todoone" />
+            </div>
+            <div class="tdpad">
+                <input type="text" name="js" placeholder="Learn JavaScript" class="todoone" />
+            </div>
+            <div class="todoone">
+                +Add another card
+            </div>
+        </div>
+    </div>
+    <div class="tdo">
+        <b>Doing</b>
+        <i id="icr" class="fa fa-ellipsis-h"></i>
+        <div class="todoo">
+            <div class="tdpad">
+                <input type="text" name="resume" placeholder="Prepare Resume" class="todoone" />
+            </div>
+            <div class="tdpad">
+                <textarea placeholder="Enter a title for this card"></textarea>
+            </div>
+            <div>
+                <button class="tdbutt">Add Card</button>
+                <i  id="tdcross" class="fa fa-times"></i>
+            </div>
+        </div>
+    </div>
+    <div class="tdo">
+        <b>Testing/Verifying</b>
+        <i id="icr" class="fa fa-ellipsis-h"></i>
+        <div class="todoo">
+            <div class="tdpad">
+                <input type="text" name="twifrend" placeholder="Twitter app frontend" class="todoone" />
+            </div>
+            <div class="todoone">
+                +Add another card
+            </div>
+        </div>
+    </div>
+    <div class="tdo">
+        <b>Deploying</b>
+        <i id="icr" class="fa fa-ellipsis-h"></i>
+        <div class="todoo">
+            <div class="tdpad">
+                <input type="text" name="twibkend" placeholder="Twitter app backend" class="todoone" />
+            </div>
+            <div class="todoone">
+                +Add another card
+            </div>
+        </div>
+    </div>
+    <div class="tdo">
+        <b>Deploying</b>
+        <i id="icr" class="fa fa-ellipsis-h"></i>
+        <div class="todoo">
+            <div class="todoone">
+                +Add another card
+            </div>
+        </div>
+    </div>
+    <div class="tdo">
+        <div class="todoo">
+            <div class="todoone">
+                +Add another card
+            </div>
+        </div>
+    </div>
+</body>
+</html>
